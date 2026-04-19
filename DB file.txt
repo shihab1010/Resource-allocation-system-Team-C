@@ -1,0 +1,19 @@
+ create database if not exists resource_db;
+ 
+ use resource_db;
+
+create table if not exists resources(
+     id int auto_increment primary key,
+     name varchar(100) not null,
+     type varchar(100) not null,
+     capacity int
+     );
+
+create table if not exists bookings(
+    id int auto_increment primary key,
+    resource_id int,
+    requested_by varchar(100) not null,
+    booking_date date,
+    status enum('denied','confirmed')default 'confirmed',
+    foreign key (resource_id) references resources(id)
+    );
