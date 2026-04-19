@@ -1,5 +1,3 @@
-
-
 # 📦 Resource Allocation System
 
 A simple system to efficiently allocate and manage resources among users or tasks.
@@ -31,5 +29,4 @@ A simple system to efficiently allocate and manage resources among users or task
 * **Pretha (388)** — Database Design & Management
 * **Shihab (352)** — API Testing & Collaboration
 * **Zubayer (354)** — Presentation & Demo Video
-
 

@@ -1,0 +1,37 @@
+.container {
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
